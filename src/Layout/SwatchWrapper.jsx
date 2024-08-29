@@ -1,13 +1,13 @@
-import { SingleSwatchWrapper } from "../components";
+import SingleSwatchCircle from "../components/SingleSwatchCircle";
 
 function SwatchWrapper({ activeData, swatchData, handleSwatchClick }) {
   const handleSwatchClicked = (item) => {
     handleSwatchClick(item);
   };
   return (
-    <div className="h-fit absolute z-20 w-full bottom-0 flex justify-center gap-8 mb-2  lg:w-fit lg:inset-y-[40%] lg:right-20 lg:flex-col">
+    <div className="absolute bottom-0 z-20 w-full mb-2 flex justify-center gap-8 h-fit lg:right-[10px] lg:inset-y-[40%] lg:w-fit lg:flex-col">
       {swatchData.map((dataObj) => (
-        <SingleSwatchWrapper
+        <SingleSwatchCircle
           key={dataObj.id}
           item={dataObj}
           handleClick={handleSwatchClicked}

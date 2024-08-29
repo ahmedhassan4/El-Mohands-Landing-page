@@ -28,18 +28,18 @@ function SectionMain() {
   }, [activeData]);
 
   return (
-    <div ref={banner} className="w-full h-4/5">
-      <div className="header absulute my-2 ml-6 text-left text-2xl font-bold tracking-widest md:ml-28 lg:ml-[12vw] lg:my-8 uppercase">
-        owr work
-      </div>
-
-      <div className="w-full h-full flex justify-between items-center flex-col lg:flex-row-reverse">
-        <Canvas
-          activeData={activeData}
-          swatchData={data}
-          handleSwatchClick={handleSwatchClick}
-        />
-        <Content activeData={activeData} />
+    <div ref={banner} className="w-full h-3/5 max-h-3/4">
+      <div className="w-full h-full flex flex-col lg:flex-row lg:space-x-4">
+        <div className="w-full  lg:w-1/2">
+          <Canvas
+            activeData={activeData}
+            swatchData={data}
+            handleSwatchClick={handleSwatchClick}
+          />
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Content activeData={activeData} />
+        </div>
       </div>
     </div>
   );
