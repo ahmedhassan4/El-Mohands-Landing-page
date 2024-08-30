@@ -1,4 +1,4 @@
-import SingleSwatchCircle from "../components/SingleSwatchCircle";
+import SingleSwatchCircle from "../../components/SingleSwatchCircle";
 
 function SwatchWrapper({ activeData, swatchData, handleSwatchClick }) {
   const handleSwatchClicked = (item) => {

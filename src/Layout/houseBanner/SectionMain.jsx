@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Content from "./Content";
-import { data } from "../data";
+import { data } from "../../data";
 import Canvas from "./Canvas";
 import gsap from "gsap";
 function SectionMain() {
