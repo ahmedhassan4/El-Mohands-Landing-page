@@ -282,8 +282,6 @@ function Slider() {
               </div>
             </div>
           </SwiperSlide>
-          {/* Add more SwiperSlide components as needed */}
-
           <div className="slider_controler mt-8 flex justify-center items-center space-x-6">
             <div className="swiper-pagination"></div>
           </div>

@@ -63,3 +63,37 @@ export const data = [
     },
   },
 ];
+
+export const cardData = [
+  {
+    title: "Structural Engineer",
+    description:
+      "Designs and analyzes structures like buildings and bridges to ensure",
+    rating: "4.55",
+  },
+  {
+    title: "Civil Engineer",
+    description: "Focuses on infrastructure and public works projects",
+    rating: "4.70",
+  },
+  {
+    title: "Architect",
+    description: "Designs buildings and other structures",
+    rating: "4.60",
+  },
+  {
+    title: "Mechanical Engineer",
+    description: "Works on mechanical systems and machines",
+    rating: "4.80",
+  },
+  {
+    title: "Electrical Engineer",
+    description: "Deals with electrical systems and electronics",
+    rating: "4.75",
+  },
+  {
+    title: "Environmental Engineer",
+    description: "Works on solutions to environmental issues",
+    rating: "4.65",
+  },
+];
